@@ -1,0 +1,868 @@
+<html>
+
+
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Soundness</title>
+
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<meta name="Microsoft Theme" content="layers 111, default">
+
+<meta name="Microsoft Border" content="t, default">
+
+<meta name="reines-archive-repair" content="static-repair">
+<link rel="stylesheet" href="../assets/archive.css">
+<script src="../assets/archive.js" defer></script>
+</head>
+
+
+
+<body background="../assets/images/_themes/layers/laybkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#336699" vlink="#999933" alink="#663366"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="georgia,times new roman,times">
+
+
+
+<p align="center"><i><font size="6"><strong>
+
+</strong></font><br>
+
+</i><strong>
+
+</strong></p>
+
+<p align="center"></p>
+
+
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top"><!--mstheme--><font face="georgia,times new roman,times">
+
+<o:p>
+
+<div style="border-style: solid; border-width: 1; padding-left: 4; padding-right: 4; padding-top: 1; padding-bottom: 1">
+
+<o:p>
+
+<p align="center"><span style="font-variant: small-caps">
+
+<font face="Arial" size="4" color="#663300">Introduction</font></span></p>
+
+<p align="center"><font face="Arial">Late last year Ellen Parker 
+
+wrote an article for <u>The Washington Thoroughbred</u> titled &quot;The Softening of 
+
+the Thoroughbred Runner.&quot;</font></p>
+
+<p align="center"><font face="Arial">It was suggested that she submit 
+
+it for Eclipse Award consideration in the media category, but of course it had 
+
+no chance given that media Eclipse Awards tend towards sensationalism and/or 
+
+sentimentality.&nbsp; An article commenting on today's sad state of unsound 
+
+breeding practices is certainly not going to be welcomed by those who have 
+
+contributed so mightily (with the accordant profit) to the deterioration of the 
+
+breed.</font></p>
+
+<p align="center"><font face="Arial">But the message is important, and 
+
+we present the article here in the hope that there are those who will take it to 
+
+heart and in whatever small way make a contribution to the strength of the 
+
+Thoroughbred breed before it is, if it is not already, too late.</font></p>
+
+<p align="right"><font face="Arial">--Ron Parker</font></p>
+
+</div>
+
+<!--msthemeseparator--><p align="center"><img src="../assets/images/_themes/layers/alayrule.gif" width="600" height="10"></p>
+
+<p class="MsoNormal" align="center" style="text-align:center">
+
+&nbsp;</p>
+
+<p class="MsoNormal" align="center" style="text-align:center">
+
+<font color="#663300"><b><span style="font-size:16.0pt">THE SOFTENING OF THE 
+
+THOROUGHBRED RUNNER</span></b></font></p>
+
+<p class="MsoNormal" align="center" style="text-align:center">
+
+<font color="#663300"><b><span style="font-size:14.0pt">By Ellen Parker</span></b></font></p>
+
+<p class="MsoNormal" align="center" style="text-align:center">&nbsp;</p>
+
+<p class="MsoNormal"><i><span style="font-size:14.0pt">“One of the primary goals 
+
+of those great (racing) families was to breed a better horse.&nbsp; They bought all 
+
+of the best blood that was available in the world and brought it to the United 
+
+States, intermingled that with our best blood, and produced the best racehorses 
+
+in the world.&nbsp; We were breeding for soundness and improvement.</span></i></p>
+
+<p class="MsoNormal"><i><span style="font-size:14.0pt">“Most of your racing 
+
+stock now is ‘hothouse’ raised by people that are going to sell commercially, so 
+
+they want them sleek and prepped up.&nbsp; Today you can’t let a horse go out in the 
+
+field with 15 other horses and fight and get bloody with knots and bruises all 
+
+over them – things that are superficial, but things that make them tough.&nbsp; A 
+
+commercial product can’t be raised that way.”</span></i><span style="font-size:14.0pt">…………….John 
+
+Veitch, Hall of Fame trainer, Chief Steward for the Kentucky Horse Racing 
+
+Authority.</span></p>
+
+<!--msthemeseparator--><p align="center"><img src="../assets/images/_themes/layers/alayrule.gif" width="600" height="10"></p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Foreseeing the Problem</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Twenty-four years 
+
+ago, I wrote a two-part story for <u>The Texas Thoroughbred</u> called “The 
+
+Choice Is Yours”, which won an American Horse Publications third-place award for 
+
+feature article.&nbsp; One question I posed in that long-ago story was “Are we 
+
+allowing the commercial selling market to dictate our pedigrees?”&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this story, I 
+
+quoted <u>New York Post</u> turf writer Ray Kerrison:&nbsp; “Breeders don’t breed to 
+
+race anymore.&nbsp; They breed to breed, because that’s where the money is.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “The result is 
+
+that the tracks have nothing to promote, the public nothing to excite their 
+
+interest.”</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hall of Fame 
+
+trainer P. G. Johnson agreed.&nbsp; “They’re breeding catalogue page to catalogue 
+
+page.&nbsp; We’ve had a lot of brilliant horses retire.&nbsp; These horses sometimes sire 
+
+unsound brilliant daughters who are bred to still more brilliance.&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “We should breed 
+
+to soundness and outcross, but that is not what’s best commercially.”</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All that long 
+
+while ago, I actually saw Eight Belles coming; I just didn’t know her name yet.&nbsp; 
+
+And I have never in my life been so sorry to be right about something as I am 
+
+about that.&nbsp; The problem now, however, is exacerbated by a total lack of 
+
+diversity with which to affect outcrosses (actually, no true outcrosses are 
+
+possible, but there was a time when we could come much closer).</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">A Moment In Time</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have a lifetime 
+
+of wonderful memories associated with racing and its star athletes, but none 
+
+more than the visits I paid to Round Table in his prime.&nbsp; Claiborne in those 
+
+days was a wonderland of diversity, and I literally basked in the glory of its 
+
+very unique and special residents.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the St. Simon 
+
+line came my beloved Round Table and his son Tell as well as the elegant *Le 
+
+Fabuleux (Wild Risk) and the troubled Tulyar (via Bois Roussel).&nbsp; Domino was 
+
+represented by Double Jay and his Arab-like son Bagdad, and later by the 
+
+wondrous Ack Ack.&nbsp; Hyperion got into the act with the mischievous *Forli.&nbsp; Teddy 
+
+was put on the map by the great </span><span style="font-size:
+
+  14.0pt">Damascus</span><span style="font-size:14.0pt"> and *Pharamond II by 
+
+his rival Buckpasser, once called “the perfect physical specimen”.&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fairway was 
+
+present via *Pago Pago and *Tatan; Son-In-Law via *Herbager and *Ribot via the 
+
+comical little Tom Rolfe. &nbsp;*Nasrullah and his great son Bold Ruler (and his sons 
+
+Secretariat, Reviewer, and Jacinto) were vital aspects of the farm.&nbsp; And 
+
+*Turn-to lines were present in Sir Gaylord, Drone, Sir Ivor and Riva Ridge.&nbsp; *Ambiorix 
+
+was Tourbillon’s standard-bearer and earlier lines like *Blenheim II (Swynford) 
+
+and Gallant Fox held sway.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What a long way we 
+
+have come from this wide path of choices.&nbsp; How often are Americans called a 
+
+melting pot?&nbsp; Well, we have melted down the pot in the Thoroughbred horse to 
+
+pretty much all Northern Dancer and Raise a Native lines (which have in common 
+
+the unsoundness of Native Dancer) while the majority of those lines deemed 
+
+‘different’ are all but gone.&nbsp; *Nasrullah via Seattle Slew (but getting narrower 
+
+via just A. P. Indy with Mr. Prospector crosses), and Blushing Groom, which is 
+
+holding his own, are still with us and Man o’ War lines via In Reality continue 
+
+to prosper, most recently via Tiznow.&nbsp; Nearly everything else is down to a 
+
+trickle, if that:</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Today we find only 
+
+a handful of horses descending from those long-ago Claiborne sires I remember so 
+
+well and while, yes, there are some Pleasant Colonies and some Hail to Reasons 
+
+and tiny bits and pieces of Buckpasser and Damascus, there are not great masses 
+
+of them, nor are they popular shuttle animals or horses who receive the 
+
+ridiculously large books some of these sires get.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Natural vs. “Shuttle” 
+
+Selection</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the oldest 
+
+sayings in the Thoroughbred world is that sire lines rise and fall.&nbsp; Of course 
+
+they do.&nbsp; When a saturation point is reached, as with St. Simon, another comes 
+
+along which complements it (Bend Or in this case) adding speed to St. Simon’s 
+
+great galloping/staying ability.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; That is a natural 
+
+thing and as it should be.&nbsp; But today it has nothing to do with ability.&nbsp; 
+
+Instead of 30 or 40 mares in a sire’s book, many top commercial stallions get 
+
+100-175 mares per book in not just one but <i>two</i> hemispheres.&nbsp; That means 
+
+that in a single season they can sire as many foals as Round Table or Bold Ruler 
+
+did in a lifetime.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The result is that 
+
+the older, less precocious lines – those who do not look like Quarter horses and 
+
+start out winning stakes in June of their juvenile years – are allowed to grow 
+
+fallow and die out.&nbsp; Consider K One King, the last G1 winner from the Round 
+
+Table sire line.&nbsp; This observer saw him at Gainesway on a day when he was the 
+
+only horse shown to visitors which had not been given a bath!</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When we complained 
+
+about this, the groom said, “He’s a $3500 horse.”&nbsp; All we could think of to 
+
+counter with was that he might not <i>be</i> a $3500 horse if he had had a bath.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But this is not 
+
+just about Round Table.&nbsp; In another instance not long ago, a client was trying 
+
+to breed to Fairway (*Pago Pago)-line Island Whirl.&nbsp; Both she and I made 
+
+compelling cases for why her mare fit him.&nbsp; The farm conceded that he was still 
+
+fertile and that it was a good match but refused to book any mares to him, 
+
+trying instead to ‘force’ a match with a newer young horse they had just 
+
+acquired!&nbsp; With policies like this, no wonder we are in trouble.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There is more:&nbsp; 
+
+Hanging by a thread as we write this is Broad Brush/Ack Ack, who has Include as 
+
+almost his sole representative.&nbsp; And while this sire line is known as one which 
+
+“only takes one”, Include will soon be absorbed into the Mr. Prospector/Northern 
+
+Dancer chasm if he, too, does not get a son to carry on which has neither of 
+
+these lines.&nbsp; The same is true of Holy Bull, and we sincerely hope he pulls out 
+
+the other part of this grand old sire line (Himyar) with his ‘outcrossed’ son, 
+
+Giacomo, winner of the 2005 Kentucky Derby.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">How Did This Happen?</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We could give you 
+
+the one-word version:&nbsp; Greed.&nbsp; Or the three-pronged version:&nbsp; Syndications 
+
+(starting with $5.4 million for Nijinsky II and followed shortly thereafter by 
+
+$6.8 for Secretariat – both were Triple Crown winners and both of their sire 
+
+lines are threatened as we write this); over-booking (30-35 mares 
+
+per sire per season used to be the norm, now it is an insult); and 
+
+dual-hemisphere shuttling (this almost never used to occur).</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And whether you 
+
+want to slap the commercial market with the ‘original’ Raise a Native madness 
+
+for Majestic Prince and his brothers or blame the Coolmore/Ashford conglomerate 
+
+for the proliferation of Northern Dancer blood, we did little to stanch the flow 
+
+of our best bloodlines to foreign interests.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In what amounted 
+
+to self-defense, major racing jurisdictions in the Southern Hemisphere went from 
+
+important horses like Badger Land and Darby Fair (South Africa) to ‘business as 
+
+usual’ Northern Dancer/Raise a Native crosses.&nbsp; Where once Star Kingdom seemed 
+
+the brightest and best of Hyperion’s tribe ‘down under’ in Australia and New 
+
+Zealand, he has now been swamped, along with his wondrous successor Sir Tristram 
+
+(*Turn-to) with Danehill blood.&nbsp; </span><span style="font-size:
+
+ 14.0pt">South America</span><span style="font-size:14.0pt">, once a great place 
+
+to find counterbalances to all those Nashua daughters with a nice horse like 
+
+Good Manners are now saturated with Native Dancer blood as well.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And as for the 
+
+Fairway lines which marched proudly through Europe and all the other continents 
+
+via horses like Brigadier Gerard, they are all but absorbed and if one wishes to 
+
+use them, he can do so only by adding still more Northern Dancer blood to a 
+
+horse already inbred to him.&nbsp; Further, as this is being written, some effort is 
+
+being made in Europe by major players Coolmore and Darley to acquire some of the 
+
+old Bahram (Koenigsstuhl); Teddy (Monsun) and Son-In-Law (Acatenango/Lando) 
+
+lines in Germany.&nbsp; Before long, they will no longer be absent the Native Dancer 
+
+stain either.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Of Babies and Bottles</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; As we 
+
+consider the problem of soundness in the modern Thoroughbred, it is often 
+
+difficult to discern what is a symptom and that which is a cause.&nbsp; Take the case 
+
+of drugs:&nbsp; Do horses need medication because they are not sound or are they not 
+
+sound because their parents ran on medication?&nbsp; Try figuring that one out 
+
+sometime.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And woe is the 
+
+poor breeder who does his homework and goes to farm after farm looking for a 
+
+nice physical match for his mare, only to discover that the ‘perfect’ stallion 
+
+had surgical intervention to fix this problem or that before he ran.&nbsp; Surgery 
+
+used to be rather obvious, but due to newer arthroscopic techniques, little 
+
+‘tweaks’ are no longer so easily spotted.&nbsp; So if the mare happens to have the 
+
+same problem that the sire had ‘fixed’, the breeder ends up with a crooked foal 
+
+and isn’t sure if it’s entirely his mare’s fault or not.&nbsp; Some major breeders 
+
+have even suggested that it be stamped on a horse’s papers if he had periosteal 
+
+stripping or other such ‘work’, but commercial breeders kept that from 
+
+happening.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And while we’re on 
+
+the subject of coming clean about young horses, how do you know whose x-ray you 
+
+are really looking at when you go to a sale’s repository?&nbsp; Can <i>you</i> tell 
+
+Hip #231’s ankles from Hip #772’s?&nbsp; Didn’t think so.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then there is the 
+
+whole craziness of two-year-old-in-training sales.&nbsp; Who on earth that really 
+
+loves horses and cares about the future of this sport and this breed wants to 
+
+take these poor babies, buzz them up (if on nothing more than their own 
+
+adrenaline) and send them out to work a mere furlong?&nbsp; Would someone please tell 
+
+us how on earth this does anything but harm?</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time was we 
+
+worried about yearlings on steroids.&nbsp; Now we have to worry about horses who are 
+
+barely more than yearlings racing down the stretch like wild mustangs.&nbsp; This is 
+
+utter insanity and has no bearing on breeding a classic horse.&nbsp; No wonder we 
+
+haven’t had a Triple Crown winner in 30 years; nobody’s really trying to breed 
+
+one!</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Triple Crowns</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, we’ve 
+
+never had a <i>lot</i> of Triple Crowns (15 in England since 1853), and if one 
+
+considers this, he comes to the conclusion that we really aren’t <i>supposed</i> 
+
+to have too many of them.&nbsp; If they were more common, it would somehow cheapen 
+
+them.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But the question 
+
+now is whether or not they are even <i>possible</i>. America has not had a 
+
+Triple Crown since Affirmed in 1978, but England has gone eight years longer, 
+
+since Nijinsky II won in 1970.&nbsp; Prior to his victory in the marathon St. Leger, 
+
+the last English Triple Crown winner was Bahram in 1935.&nbsp; Such gaps are to be 
+
+honored; they make for historical achievements.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So can we have 
+
+other Triple Crowns?&nbsp; Perhaps.&nbsp; In England, we only believe this is possible if 
+
+a private breeder – say the Aga Khan, or someone like the late Gerald Leigh who 
+
+bred classic winner and Breeders’ Cup victor Barathea - decides that he values 
+
+the quest.&nbsp; The reason?&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A horse is far 
+
+more valuable at stud if he wins the English Two Thousand Guineas at a flat mile 
+
+and the 12-furlong Epsom Derby, then follows that with a win in France’s Prix de 
+
+l’Arc de Triomphe at the same distance against his elders.&nbsp; Animals who win the 
+
+marathon 1 ¾ mile plus St. Leger are considered ‘plodders’ and shunned by most 
+
+breeders, or relegated to siring ‘chasers in the provinces.&nbsp; Freely translated, 
+
+it is not commercial to win the Leger, thus the Triple Crown has lost its luster 
+
+– at least in England.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The reasons why we 
+
+have not had a Triple Crown winner in the U. S. are more complex.&nbsp; (In other 
+
+words, there may actually have been a horse in England who could have won the 
+
+Triple Crown but was never actually pointed for it.)</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In all 
+
+probability, our lack of Triple Crown winners has to do with the fact that our 
+
+horses simply are no longer tough enough to withstand the challenge.&nbsp; And no, it 
+
+won’t help if we don’t start them until they are five on artificial surfaces, 
+
+PETA.&nbsp; Or worse if we ‘adjust’ the series in either distance or spacing; all 
+
+that would do is cheapen the whole thing –rather like making the once two-mile 
+
+Jockey Club Gold Cup into just another fall Belmont stake where once it was 
+
+something unique and special.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Triple Crown 
+
+is a tough test.&nbsp; It requires an athlete to have a great foundation (i.e. a 
+
+strong two-year-old season); a productive early spring (three or four prep 
+
+races) and then come into the Derby at slightly below his best, then on to the 
+
+Preakness, dialed up a notch, then peaking in the Belmont. &nbsp;This series of tests 
+
+demands exceptional talent, a level disposition, and a strong constitution.&nbsp; But 
+
+along with these necessities comes the obvious:&nbsp; He must also be sound.&nbsp; If he 
+
+is not, he will not have a strong juvenile campaign (something both Big Brown 
+
+and Sunday Silence lacked), a solid spring campaign (something also lacking in 
+
+those two) and luck (both had foot problems).&nbsp; These are just two examples of 
+
+horses who could not pull off the hat trick.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But the 
+
+luck-soundness balance is an integral part of this process and we believe that 
+
+while some things to do with soundness like stumbling coming out of the gate, 
+
+are unavoidable, <i>basic</i> soundness is for keeps.&nbsp; Again, Round Table comes 
+
+to mind:&nbsp; The great horse won 14 of his 16 starts on turf, and ran second in 
+
+another.&nbsp; In his only off-the-board effort, he grabbed a quarter at the start of 
+
+the 1959 Washington Birthday Handicap. Doctor John Peters (who purchased the 
+
+colt from Claiborne Farm for the Kerr family and later was the track 
+
+veterinarian for Santa Anita) said he had never before seen a horse heal so 
+
+quickly.&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Round Table was 
+
+out of action with the resultant quarter crack from Feb. 23 to June 13, the only 
+
+time he was sidelined in his 66-race career.&nbsp; In his first start back, he 
+
+carried 130 pounds to equal Citation’s mile track record of 1:33 2/5 at 
+
+Arlington Park in Chicago.&nbsp; Because he was intrinsically sound, he had no 
+
+problem healing quickly and returning to full strength, winning another handicap 
+
+championship and becoming the world’s leading money winner.&nbsp; For a Triple Crown 
+
+winner, such inborn strength is not an option; it is an utter ground rule.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Punishing Toughness</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Round Table’s sire 
+
+line is almost gone as this is being written.&nbsp; We use him so often as an example 
+
+not just because he was our favorite but because perhaps more than any other 
+
+horse besides his female counterpart, Dahlia, his was a toughness that seemed to 
+
+be punished more than it was honored, something that makes no sense at all to 
+
+us.&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you think it’s 
+
+unfortunate that Round Table or Dahlia are punished, consider a far more recent 
+
+horse, Skip Away, one of our true tough guys with 38 starts.&nbsp; He can’t buy the 
+
+kind of mares routinely seen by the Northern Dancer/Mr. Prospector crosses.&nbsp; His 
+
+yearling average?&nbsp; A little over $11,000 – with a stud fee of $10,000.&nbsp; </span>
+
+</p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How about an even 
+
+tougher fellow, Say Florida Sandy (98 starts) – his yearlings average $6,050.&nbsp; 
+
+Why must we turn our backs on such horses?&nbsp; This is exactly the kind of horse we
+
+<i>should</i> be standing at the best farm in Kentucky and turning away mares by 
+
+the truckload.&nbsp; Instead, he’s buried in upstate New York where he got 37 foals 
+
+in his first crop.&nbsp; That’s about what Giant’s Causeway sees in his first week of 
+
+the breeding season.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Is It Too Late?</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If ‘outcrossing’ 
+
+is indeed the answer, we first need to determine if it’s even possible.&nbsp; Horses 
+
+like Holy Bull, Hat Trick and Skip Away give one hope, but they cannot do it 
+
+alone, nor can they do it with books of 30 mares when every single Northern 
+
+Dancer and Raise a Native-line sire gets 150 mates in two hemispheres.&nbsp; There 
+
+are only so many good mares out there after all.&nbsp; Where do you suppose they are 
+
+going?</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For certain, they 
+
+are not going to horses like Include, K One King, Ferrara or Say Florida Sandy.&nbsp; 
+
+How about Brigadier Gerard-line Patton in Pennsylvania for a rarity?&nbsp; That’s why 
+
+he’s <i>in</i> Pennsylvania.&nbsp; Then there is Beautiful Pleasure’s grand full 
+
+brother Mecke in Florida who stands alongside another viable ‘outcross’ – the 
+
+Montbrook tribe.&nbsp; Local breeders, at least, seem to like the latter.&nbsp; Mecke?&nbsp; 
+
+Not so much.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seattle Fitz 
+
+represents *Blenheim II, though we’d surely like to see some *Mahmoud on the 
+
+top, too, and Siphon represents Prince Bio, though we see some soundness 
+
+problems with him.&nbsp; Caro is pretty well carried by Cozzene, since we were stupid 
+
+enough to sell off the lovely With Approval, and of course there is In Excess 
+
+and his son Indian Charlie, but neither is particularly sound.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blushing Groom has 
+
+Rahy, who needs a flagship son.&nbsp; At present Cherokee Colony and Mt. Livermore 
+
+are keeping the line on track.&nbsp; And of course Washington is to be congratulated 
+
+for keeping courageous little *Gallant Man’s line in play with Demon Warlock.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pleasant Colony 
+
+still has a bit of a say in things and Go For Gin has taken Cormorant another 
+
+generation farther with Albert the Great.&nbsp; But Tom Rolfe, our favorite *Ribot, 
+
+is not even a strong presence via his best son Alleged and we did not support 
+
+Lost Code enough to continue Arts and Letters – plus we let Badger Land get away 
+
+to South Africa.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In Europe, horses 
+
+like Lahib (Riverman), Lando (Son-In-Law) and the offspring of Indian Ridge 
+
+(Tourbillon line) are but a few of the choices.&nbsp; Hyperion is very hard to find 
+
+in tail-male - *Forli is represented by a touch of Thatch blood, *Alibhai by 
+
+Deputed Testamony’s line and there is a smidgen of Nodouble in regional markets: 
+
+This is all that is left from a once hale and hearty line, though we find many 
+
+horses inbred to Hyperion.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perhaps the only 
+
+thing to do is to take a group of expert horsemen and travel the far reaches of 
+
+the planet, from England to South Africa to India to New Zealand to Japan and on 
+
+to </span><span style="font-size:
+
+ 14.0pt">South America</span><span style="font-size:14.0pt"> is search of some 
+
+lines we have allowed to go fallow.&nbsp; It would take time and money and real 
+
+effort, not to mention a true commitment on the part of the searchers, for once 
+
+the animals were found, they must also be supported.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">Some Options</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are three 
+
+other ideas which come to mind that might make a difference.&nbsp; One – opening up 
+
+the stud book to a different breed or breeds – we are certain will never be 
+
+adopted.&nbsp; We once read that if a Thoroughbred and a Standardbred were to be 
+
+mated that the Standardbred would be improved in the first generation but the 
+
+Thoroughbred would not be improved for a dozen generations.&nbsp; Whether or not we 
+
+believe this, it is likely true that the younger the breed, the more improvement 
+
+would show up immediately.&nbsp; Thus something older like pure Arab blood might make 
+
+more sense than a warmblood sire, or even using a combination of the pair – say 
+
+a good-boned Anglo-Arab might be the ticket.&nbsp; Still, we know the Jockey Club 
+
+would balk at any such suggestion.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Another idea I 
+
+believe not only has merit, but is one that we should adopt immediately, and 
+
+that is a National Stud.&nbsp; Within that National Stud should be as many variety of 
+
+sire lines as can possibly be found, with no Native Dancer inbreeding whenever 
+
+humanly possible.&nbsp; And, since we are going to have to do something about 
+
+supporting these horses, they will have to be subsidized with sizeable 
+
+incentives to breed to them.&nbsp; In other words, stud fees in reverse.&nbsp; “Bring us 
+
+your G1-winning mare from family 1-S (*La Troienne) and we’ll pay you to do so.”</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If that does not 
+
+work, the only other option is for the National Stud to develop its own 
+
+broodmare band, but the clock is ticking and time may already have run out.&nbsp; 
+
+Breeding outcrossed sires to a series of Raise a Native inbred mares is not 
+
+going to help much of anything if they are crossed back to more Native Dancer in 
+
+the next generation.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finally, and this 
+
+goes hand-in-hand with breeding ‘different’ horses, we need to up the purses on 
+
+our longer races, not insult them (as with the new Breeders’ Cup Marathon with a 
+
+purse of only $500,000 when everything else is <i>at least</i> $1 million.)&nbsp; We 
+
+should have a $5 million marathon, too.&nbsp; Then maybe somebody would breed for a 
+
+St. Leger runner and we’d actually get another English Triple Crown winner.</span></p>
+
+<p class="MsoNormal"><font color="#663300"><u>
+
+<span style="font-size: 14.0pt; font-weight: 700">The Only House On Easy Street 
+
+is The Poor House</span></u></font></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Which brings us to 
+
+the bottom line:&nbsp; Thinking outside the box and doing the right thing takes 
+
+courage and a willingness to ride out the storm.&nbsp; Taking short cuts has all but 
+
+ruined this wondrous creature born of desert sires and mares who carried knights 
+
+into battle.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The breed has not 
+
+evolved, it has devolved.&nbsp; Those who care about more than the sale price of 
+
+their yearlings had better get moving because by the time you are ready, there 
+
+will be nothing left to use…we are nearly there now.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What I had 
+
+foreseen twenty-four years ago is happening every day before my eyes and I do 
+
+not care for the landscape.&nbsp; I do not know what to say to people who ask me how 
+
+I can support such a sport, how I as a horse lover can even watch it anymore.&nbsp; 
+
+It is getting harder and harder to find answers to those questions.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then just last 
+
+month I took some Dutch visitors out to see Giacomo, the Giacomo I was so very 
+
+certain would win the Kentucky Derby for his Plaudit-line sire, Holy Bull.&nbsp; He 
+
+is entirely absent Northern Dancer and Raise a Native lines and he is from a 
+
+French classic family (Mistress Ford) just named a <i>Reine-de-Course</i>.&nbsp; I 
+
+look into the eyes of this horse – the perfect outcross for the future – and I 
+
+know that I will never give up hope entirely.&nbsp; Not so long as horses like this 
+
+win classic races and go places like Adena Springs to stand at stud.&nbsp; &nbsp;As long 
+
+as there are Giacomos there is hope.</span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt">&nbsp;</span></p>
+
+
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+
+
+</html>
